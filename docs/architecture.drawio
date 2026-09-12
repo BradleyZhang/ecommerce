@@ -1,0 +1,100 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="lwcqeJUAFf6GeImI9JFE">
+    <mxGraphModel dx="1665" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RcRESJJte-iNSObn_sZB-52" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RcRESJJte-iNSObn_sZB-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Web" vertex="1">
+          <mxGeometry height="54" width="108" x="190" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="delivery" vertex="1">
+          <mxGeometry height="54" width="154" x="422" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="usecase" vertex="1">
+          <mxGeometry height="54" width="115" x="613" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-49" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="RcRESJJte-iNSObn_sZB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="model" vertex="1">
+          <mxGeometry height="54" width="104" x="875" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;I&gt; UserRepository" vertex="1">
+          <mxGeometry height="54" width="169" x="1008.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&lt;I&gt; Validater" vertex="1">
+          <mxGeometry height="54" width="126" x="1030" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="repository" vertex="1">
+          <mxGeometry height="54" width="133" x="1345" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="plugins/validater" vertex="1">
+          <mxGeometry height="54" width="183" x="1320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-34" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="RcRESJJte-iNSObn_sZB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-46" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RcRESJJte-iNSObn_sZB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="cmd/monolith" vertex="1">
+          <mxGeometry height="54" width="162" x="675" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-20" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-11" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" target="RcRESJJte-iNSObn_sZB-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-21" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-12" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="RcRESJJte-iNSObn_sZB-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-23" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-13" style="startArrow=none;endArrow=block;exitX=0.63;exitY=1;entryX=0;entryY=0.12;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="RcRESJJte-iNSObn_sZB-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-24" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-16" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="RcRESJJte-iNSObn_sZB-14" value="实现">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-25" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-17" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="RcRESJJte-iNSObn_sZB-15" value="实现">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-33" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.628;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="200" />
+              <mxPoint x="438" y="200" />
+            </Array>
+            <mxPoint x="675" y="164" as="sourcePoint" />
+            <mxPoint x="437.712" y="279.67600000000016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-42" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value=" " vertex="1">
+          <mxGeometry height="400" width="10" x="580" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-43" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value=" " vertex="1">
+          <mxGeometry height="400" width="10" x="837" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-44" parent="1" style="line;strokeWidth=2;direction=south;html=1;" value=" " vertex="1">
+          <mxGeometry height="400" width="10" x="1265" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-51" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RcRESJJte-iNSObn_sZB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-50" parent="1" style="whiteSpace=wrap;html=1;" value="REST" vertex="1">
+          <mxGeometry height="50" width="100" x="449" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-53" parent="1" style="line;strokeWidth=2;direction=south;html=1;rotation=-90;" value=" " vertex="1">
+          <mxGeometry height="250" width="10" x="1390" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RcRESJJte-iNSObn_sZB-54" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="RcRESJJte-iNSObn_sZB-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="837" y="125.34" as="sourcePoint" />
+            <mxPoint x="1494.5819999999999" y="328.6639999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
