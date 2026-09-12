@@ -9,7 +9,7 @@ import (
 
 	"github.com/BradleyZhang/ecommerce/user/repository"
 
-	"github.com/BradleyZhang/ecommerce/user/plugins/validater"
+	"github.com/BradleyZhang/ecommerce/user/validater"
 
 	"github.com/BradleyZhang/ecommerce/user/delivery/rest"
 

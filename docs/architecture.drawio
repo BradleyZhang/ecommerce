@@ -31,7 +31,7 @@
         <mxCell id="RcRESJJte-iNSObn_sZB-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="repository" vertex="1">
           <mxGeometry height="54" width="133" x="1345" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="RcRESJJte-iNSObn_sZB-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="plugins/validater" vertex="1">
+        <mxCell id="RcRESJJte-iNSObn_sZB-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="validater" vertex="1">
           <mxGeometry height="54" width="183" x="1320" y="340" as="geometry" />
         </mxCell>
         <mxCell id="RcRESJJte-iNSObn_sZB-34" edge="1" parent="1" source="RcRESJJte-iNSObn_sZB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="RcRESJJte-iNSObn_sZB-12">
