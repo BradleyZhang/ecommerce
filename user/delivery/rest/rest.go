@@ -25,6 +25,12 @@ func (h *UserHandler) SetRouter(router *gin.Engine) {
 	{
 		userRoute := apiRouter.Group("/user")
 		{
+			userRoute.GET("/", func(c *gin.Context) {
+				c.JSON(http.StatusOK, gin.H{
+					"message": "user Server is live",
+				})
+			})
+
 			userRoute.POST("/register", h.Register)
 		}
 	}
